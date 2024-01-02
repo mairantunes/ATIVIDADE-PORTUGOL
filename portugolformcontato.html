@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maira Antunes">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+
+    <title>PORTUGOL</title>
+    <link rel="stylesheet" href="portugolformcontato.css"><!-- "Link do HTML com o CSS -->
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="index.html"> FALE CONOSCO </a>
+        </div>
+
+        <ul>
+            <li> <a href="Oquee.html"> O QUE É </a> </li>
+            <li> <a href="CARACTERISTICAS.HTML">CARACTERÍSTICAS </a> </li>
+            <li> <a href="sintaxe.html" target="_blank">SINTAXE</a> </li>
+            <li> <a href="portugolformcontato.html"> DÚVIDAS</a> </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <form action="portugolformcontato.php">
+                <h1 style="margin-bottom: 1.5rem;">Contato</h1>
+                <label for="fname">NOME COMPLETO</label>
+                <input type="text" id="fname" name="firstname" placeholder="SEU NOME..">
+
+                <!-- Email -->
+                <label for="email">EMAIL </label>
+                <input type="text" name="email" id="email"required placeholder="digite seu email">
+                <!-- Telefone -->
+                <label for="telefone">TELEFONE</label>
+                <input type="text" name="telefone" id="telefone" required placeholder="Digite seu Telefone">
+                <!-- endereco -->
+                <label for="ENDERECO">ENDEREÇO</label>
+                <input type="text" name="endereço" id="endereço" required placeholder="Digite seu endereço com cep">
+
+
+                <label for="subject">ASSUNTO</label>
+                <textarea id="subject" name="subject" placeholder="ESCREVA AQUI.." style="height:200px"></textarea>
+
+                <input type="submit" value="ENVIAR">
+
+            </form>
+    </main>
+    <footer>
+        &copy; - 2023 PORTUGOL <br> Todos os direitos reservados
+    </footer>
+</body>
+
+</html>
